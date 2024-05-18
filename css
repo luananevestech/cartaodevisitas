@@ -1,1 +1,55 @@
+body {
+  background-image: url("https://i.pinimg.com/564x/d6/d8/73/d6d873be55a85580f5b91ea97957e5ac.jpg");
+  no-repeat: center;
+  background-size: cover;
+
+  height: 100vh;
+  color: black;
+  font-family: sans-serif;
+}
+.card {
+  border: 3px solid;
+  border-radius: 16px;
+  width: 600px;
+
+  text-align: center;
+  padding: 32px;
+  background: linear-gradient(#0004, #fff4);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(20px);
+}
+
+.perfil img {
+  border: 3px solid;
+  boder-radius: 10px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 2px 5px black;
+}
+.perfil h1 {
+  font-size: 24px;
+}
+.redes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+.redes a {
+  color: black;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 8px;
+  background: linear-gradient(#0004, #fff0);
+}
+.minibio {
+  border: 1px solid;
+  padding: 7px;
+  border-radius: 8px;
+  background: linear-gradient(#0004, #fff0);
+}
 
